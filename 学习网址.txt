@@ -1,0 +1,9 @@
+python-flask：http://www.codingdict.com/article/4868
+python-math：https://www.cnblogs.com/renpingsheng/p/7171950.html
+sympy解方程：https://jingyan.baidu.com/article/9158e000076b73a2541228df.html
+python-正则：http://www.runoob.com/python/python-reg-expressions.html
+编程学习网址：http://www.codingdict.com
+jinjia2学习：http://jinja.pocoo.org/docs/2.10/
+
+
+不加班是能力的一种体现，加班是态度的一种补充 。

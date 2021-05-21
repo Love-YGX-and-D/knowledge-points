@@ -1,0 +1,23 @@
+create table if not exists student(
+sid int(10) primary key auto_increment,
+sname varchar(15)
+)default charset=utf8 engine=innodb;
+
+insert into student (sname) values ("学生1"),("学生2"),("学生3"),("学生4"),("学生5");
+
+alter table student add tname varchar(15);
+
+create table if not exists teacher(
+tid int(10) primary key auto_increment,
+tname varchar(15)
+)default charset=utf8 engine=innodb;
+
+insert into teacher (tname) values ("老师1"),("老师2"),("老师3"),("老师4"),("老师5");
+
+
+create table if not exists list(
+lid int(10) primary key auto_increment,
+lnum int(10) default 0,
+sid int(10),
+constraint lists foreign key sid (sid) references shop(sid) on update cascade on delete cascade
+)default charset=utf8 engine=innodb; 
